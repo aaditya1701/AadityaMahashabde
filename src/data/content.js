@@ -8,10 +8,10 @@ export const navItems = [
 ]
 
 export const socialLinks = [
+  { label: 'Email', href: 'mailto:aadityamahashabde@gmail.com', icon: 'Mail' },
   { label: 'GitHub', href: 'https://github.com/aaditya1701', icon: 'Github' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/aadityamahashabde', icon: 'Linkedin' },
-  { label: 'LeetCode', href: 'https://leetcode.com/u/aaditya1701', icon: 'Code' },
-  { label: 'Email', href: 'mailto:aadityamahashabde@gmail.com', icon: 'Mail' },
+  { label: 'LeetCode', href: 'https://leetcode.com/u/aaditya1701', icon: 'Code' }
 ]
 
 export const skills = [
