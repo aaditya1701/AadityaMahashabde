@@ -12,6 +12,8 @@ import GitHubSection from './sections/GitHubSection'
 import OpenToWorkSection from './sections/OpenToWorkSection'
 import ContactSection from './sections/ContactSection'
 
+import { Analytics } from "@vercel/analytics/react"
+
 function App() {
   const { scrollYProgress } = useScroll()
   const scaleX = useSpring(scrollYProgress, { stiffness: 100, damping: 25, restDelta: 0.001 })
@@ -40,6 +42,8 @@ function App() {
         <GitHubSection />
         <OpenToWorkSection />
         <ContactSection />
+
+        <Analytics/>
       </main>
       <footer className="border-t border-white/10 px-6 py-8 text-center text-sm text-slate-400 sm:px-8 lg:px-10">
         <p>Designed and developed for Aaditya Mahashabde • Built with React, Tailwind CSS, Framer Motion, and React Icons.</p>
